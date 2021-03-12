@@ -5,12 +5,15 @@
 }
 
 header{
-    background-color: brown;
+    background-color: cornflowerblue;
     width: 100%;
     height: 15%;
     padding-top: 3%;
     text-align: center;
 
+}
+ul{
+    padding-left: 30px;
 }
 
 .mitad{
@@ -22,24 +25,41 @@ header{
 }
 .izquierda{
     background-color: red;
+    color: white;
     width: 33.3%;
 
 }
 .centro{
-    background-color: green;
+    background-color: yellow;
     width: 33.3%;
 
 }
 .derecha{
-    background-color: blue;
+    background-color:green;
+    color: white;
     width: 33.3%;
 
 }
+div>h2{
+    text-align: center;
+
+}
+div>p{
+    padding: 15px;
+    text-align: justify;
+
+}
+
+footer>h2{
+    text-align: center;
+}
+
 footer{
-    background-color: darkgreen;
+    background-color: indigo;
+    color: white;
     width: 100%;
     height: 15%;
-    padding-top: 5%;
-    text-align: center;
+    padding: 10px;
+    text-align: justify;
 
 }
